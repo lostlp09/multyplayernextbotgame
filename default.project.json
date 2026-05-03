@@ -5,14 +5,12 @@
 
     "ReplicatedStorage": {
       "Shared": {
-        "$path": "src/shared"
+        "$path": "src/replicatedstorage"
       }
     },
 
     "ServerScriptService": {
-      "Server": {
         "$path": "src/server"
-      }
     },
 
     "StarterPlayer": {
@@ -22,6 +20,13 @@
         }
       }
     },
+    "ServerStorage": {
+         "$path": "src/serverstorage"
+    },
+    "ReplicatedFirst": {
+         "$path": "src/clientfirst"
+    },
+
 
     "Workspace": {
       "$properties": {
